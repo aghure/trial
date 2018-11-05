@@ -4,8 +4,10 @@ Added some trial code
 =============
 sms_scheduler
 =============
+
 main module to run this package is sms_scheduler ,give csv file as input to sms scheduler.
-sms scheduler will camm task scheduler and put the message in queue.
+sms scheduler will call task scheduler and put the message in queue.
+
 --------
 In this repository just added a placehoder for code and created package.
 
