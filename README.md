@@ -16,13 +16,14 @@ In this repository just added a placehoder for code and created package.
 - Read csv file -- csv file will contains mobile number and country code
 - sms_scheduler will read csv file.
 - From sms scheduler will insert CSV file data into mongo or any sqlite with tzinfo.
-   -- Need to check should i put in sqlite or mongo
+   --( Need to check should i put in sqlite or mongo)
 - Use APScheduler or celery to schedule task at the given input time .
-   -- both are new for me so need to read this and then need to take decision which i should use.
+   --(both are new for me so need to read this and then need to take decision which i should use.)
 - For APScheduler : https://apscheduler.readthedocs.io/en/latest/userguide.html
 - Celery :- http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html
 - Need to add logging and error handler for failed sms.
 - Need to handle failed job.
+
 
 
 
